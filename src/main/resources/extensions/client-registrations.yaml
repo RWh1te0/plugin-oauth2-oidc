@@ -48,3 +48,22 @@ spec:
   userInfoAuthenticationMethod: "header"
   userNameAttributeName: "username"
   clientName: "GitLab"
+---
+apiVersion: oauth.halo.run/v1alpha1
+kind: Oauth2ClientRegistration
+metadata:
+  name: ryanauth
+spec:
+  clientAuthenticationMethod: "client_secret_basic"
+  authorizationGrantType: "authorization_code"
+  redirectUri: "{baseUrl}/login/oauth2/code/ryanauth"
+  scopes:
+    - "profile"
+    - "email"
+    - "openid"
+  authorizationUri: "https://cas.ryanxu.cn/login/oauth/authorize"
+  tokenUri: "https://cas.ryanxu.cn/api/login/oauth/access_token"
+  userInfoUri: "https://cas.ryanxu.cn/api/userinfo"
+  userInfoAuthenticationMethod: "header"
+  userNameAttributeName: "preferred_username"
+  clientName: "RyanAuth"

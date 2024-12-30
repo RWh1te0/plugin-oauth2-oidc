@@ -8,14 +8,14 @@ spec:
   enabled: true
   requires: ">=2.20.0"
   author:
-    name: Halo
-    website: https://github.com/halo-dev
+    name: RyanXu
+    website: https://blog.wh1te0.com
   logo: logo.svg
-  homepage: https://www.halo.run/store/apps/app-ESVDK
-  repo: https://github.com/halo-sigs/plugin-oauth2
-  issues: https://github.com/halo-sigs/plugin-oauth2/issues
+  homepage: https://blog.wh1te0.com
+  repo: https://github.com/RWh1te0/plugin-oauth2-oidc
+  issues: https://github.com/RWh1te0/plugin-oauth2-oidc/issues
   displayName: "OAuth2 认证"
   description: "提供 OAuth2 认证方式"
   license:
     - name: "GPL-3.0"
-      url: "https://github.com/halo-sigs/plugin-oauth2/blob/main/LICENSE"
+      url: "https://github.com/RWh1te0/plugin-oauth2-oidc/blob/main/LICENSE"
