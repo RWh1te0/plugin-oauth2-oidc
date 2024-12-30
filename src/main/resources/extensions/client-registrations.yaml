@@ -64,6 +64,8 @@ spec:
   authorizationUri: "https://cas.ryanxu.cn/login/oauth/authorize"
   tokenUri: "https://cas.ryanxu.cn/api/login/oauth/access_token"
   userInfoUri: "https://cas.ryanxu.cn/api/userinfo"
+  jwkSetUri: "https://cas.ryanxu.cn/.well-known/jwks"
+  issuerUri: "https://cas.ryanxu.cn"
   userInfoAuthenticationMethod: "header"
   userNameAttributeName: "preferred_username"
   clientName: "RyanAuth"
